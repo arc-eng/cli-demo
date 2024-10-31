@@ -3,8 +3,8 @@
 ### Developer Pain Point
 The demo addresses the pain point of **analyzing and fixing failed unit tests**. Developers often spend significant time identifying why tests fail and determining the necessary code changes to make them pass.
 
-### How PR Pilot CLI Helps
-The PR Pilot CLI automates the process of analyzing test failures and suggesting code fixes. Here's a step-by-step breakdown of how it works in this demo:
+### How Arcane CLI Helps
+The Arcane CLI automates the process of analyzing test failures and suggesting code fixes. Here's a step-by-step breakdown of how it works in this demo:
 
 1. **Template Rendering**: The CLI uses a Jinja template to structure the analysis.
 2. **Test Execution**: It runs the test script (`test_fibonacci.py`) and captures the output.
@@ -97,4 +97,4 @@ The fibonacci function implementation has the following issues:
    ```
 ```
 
-By following these steps, the PR Pilot CLI helps developers quickly identify and fix issues in their code, making the development process more efficient and less error-prone.
+By following these steps, the Arcane CLI helps developers quickly identify and fix issues in their code, making the development process more efficient and less error-prone.

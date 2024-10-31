@@ -1,6 +1,6 @@
 # 📸 Screenshot to Code
 
-When developing frontend applications, developers often need to convert a design mockup into code. This process can be time-consuming and error-prone, especially when the design is complex. In this demo, we will show how to use PR Pilot to convert a screenshot of a design mockup into HTML and CSS code.
+When developing frontend applications, developers often need to convert a design mockup into code. This process can be time-consuming and error-prone, especially when the design is complex. In this demo, we will show how to use Arcane Engine to convert a screenshot of a design mockup into HTML and CSS code.
 
 ```shell
 # Generate REACT component based on screenshot content
@@ -10,7 +10,7 @@ pilot --no-sync --verbose task --code --snap -o component.tsx -f generate-compon
 ## How it Works
 Here is what the command does:
 1. The `--snap` flag lets you select a portion of the screen to capture.
-2. The `--code` flag tells PR Pilot to output only the code, no other text
+2. The `--code` flag tells Arcane Engine to output only the code, no other text
 3. The `-o component.tsx` parameter specifies the output file name.
 
 In the [generate-component.md.jinja2](generate-component.md.jinja2) template, we define

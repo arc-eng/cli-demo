@@ -3,8 +3,8 @@
 #### Developer Pain Point
 The demo addresses the common pain point of setting up a new project with proper dependencies and ensuring that the environment is correctly configured. Specifically, it automates the creation of a Python script for Conway's Game of Life, manages dependencies, and handles potential issues during the setup process.
 
-#### How PR Pilot CLI Helps
-The PR Pilot CLI simplifies the entire process by automating tasks that would otherwise require manual intervention. Here's a step-by-step breakdown of how it helps:
+#### How Arcane CLI Helps
+The Arcane CLI simplifies the entire process by automating tasks that would otherwise require manual intervention. Here's a step-by-step breakdown of how it helps:
 
 1. **Creating the Script and PR**:
    ```bash
@@ -24,7 +24,7 @@ The PR Pilot CLI simplifies the entire process by automating tasks that would ot
      pilot --sync --verbose task -f verify.md.jinja2
    done
    ```
-   This loop runs `poetry lock` and uses a Jinja template (`verify.md.jinja2`) to handle any errors that occur. The template instructs PR Pilot to understand the error messages, read relevant files, and fix the issues.
+   This loop runs `poetry lock` and uses a Jinja template (`verify.md.jinja2`) to handle any errors that occur. The template instructs Arcane Engine to understand the error messages, read relevant files, and fix the issues.
 
 4. **Final Setup and Execution**:
    ```bash
@@ -36,7 +36,7 @@ The PR Pilot CLI simplifies the entire process by automating tasks that would ot
 
 #### Main Benefits for the User
 - **Automation**: The entire process of creating a script, managing dependencies, and handling errors is automated, saving significant time and effort.
-- **Error Handling**: PR Pilot intelligently handles errors during dependency installation, providing fixes and explanations.
+- **Error Handling**: Arcane Engine intelligently handles errors during dependency installation, providing fixes and explanations.
 - **Synchronization**: The `--sync` flag ensures that the local repository is always in sync with the PR branch, reducing the risk of conflicts.
 - **Ease of Use**: Users can focus on the core logic of their projects without worrying about setup and configuration issues.
 
@@ -62,4 +62,4 @@ The PR Pilot CLI simplifies the entire process by automating tasks that would ot
   3. Fix the issue and respond with a short, concise explanation of the errors and the changes you made
   ```
 
-By automating these tasks, PR Pilot significantly reduces the manual effort required to set up and configure a new project, allowing developers to focus on writing code and solving problems.
+By automating these tasks, Arcane Engine significantly reduces the manual effort required to set up and configure a new project, allowing developers to focus on writing code and solving problems.

@@ -1,20 +1,20 @@
 # Step-by-step plan
 
-TODO Explain PR Pilot's `plan` command 
+TODO Explain Arcane Engine's `plan` command 
 
 
 
 
 # Example Output:
 
-Result was this PR: https://github.com/PR-Pilot-AI/pr-pilot/pull/196
+Result was this PR: https://github.com/arc-eng/studio/pull/196
 
 ```shell
 ➜  pr-pilot git:(main) ✗ pilot plan prompts/generate-integration.yaml
 
-Running Create a new PR Pilot Integration with 5 sub-tasks.
+Running Create a new Arcane Engine Integration with 5 sub-tasks.
                                                                                                                                                                                                                                    
- We are adding a Sentry integration to PR Pilot. Users will be able to enter their API key in the dashboard and PR Pilot will use its agent tools to search the Sentry API for issues and events.                                  
+ We are adding a Sentry integration to Arcane Engine. Users will be able to enter their API key in the dashboard and Arcane Engine will use its agent tools to search the Sentry API for issues and events.                                  
                                                                                                                                                                                                                                    
  An integration is composed of the following:                                                                                                                                                                                      
                                                                                                                                                                                                                                    
@@ -79,7 +79,7 @@ Running Create a new PR Pilot Integration with 5 sub-tasks.
 ╭────────────────────────────────────────── Result ───────────────────────────────────────────╮
 │                                                                                             │
 │  • Read PR #196                                                                             │
-│  • Created a new PR title: "✨ Add Sentry Integration to PR Pilot"                          │
+│  • Created a new PR title: "✨ Add Sentry Integration to Arcane Engine"                          │
 │  • Updated the PR description to explain the purpose of the integration and the changes     │
 │    made                                                                                     │
 │                                                                                             │

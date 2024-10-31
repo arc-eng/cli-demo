@@ -1,11 +1,11 @@
 # 🛠️ Config File Madness
 
-This demo showcases how PR Pilot can help you 
+This demo showcases how Arcane Engine can help you 
 **generate awesome configuration files in a snap**.
 
 ## 🎯 Goal
 
-The goal of this demo is to demonstrate how **easy** PR Pilot makes it to **generate new configuration files** based
+The goal of this demo is to demonstrate how **easy** Arcane Engine makes it to **generate new configuration files** based
 on the content of existing ones. **This can save you hours** of manual work and ensure that your new files are **consistent** with the existing ones.
 
 ## 💡 Use Cases
@@ -21,7 +21,7 @@ It's usually not something you do every day, so writing
 a proper Dockerfile can be cumbersome.
 Luckily, all the information is usually available in your project already.
 
-**PR Pilot can learn from your build files** and generate a Dockerfile that:
+**Arcane Engine can learn from your build files** and generate a Dockerfile that:
 - Uses the right base image
 - Installs your application in the container
 - Does any necessary configuration
@@ -43,13 +43,13 @@ By using the information from your `Makefile` and Kubernetes files, you can gene
 
 ### 🚀 Generate CI/CD Pipelines / Workflows
 Nobody likes to write CI/CD configs. They're usually long, repetitive, and error-prone.
-By using the information from your `Makefile`, run scripts and other files, PR Pilot can **generate pipeline configs** that:
+By using the information from your `Makefile`, run scripts and other files, Arcane Engine can **generate pipeline configs** that:
 - Run tests just **like in your scripts** 
 - Build and push images **correctly**
 - Set up **tokens and secrets** for the CI/CD environment
 - Deploy your app with **all bells and whistles**
 
-This way, you can focus on writing code and let PR Pilot handle the CI/CD setup for you.
+This way, you can focus on writing code and let Arcane Engine handle the CI/CD setup for you.
 
 
 ## 🛠️ How it works
@@ -104,4 +104,4 @@ These are only a few examples of how you can use this technique. Here are some i
 
 * Customize the templates to your project/language/framework 
 * Use different input files or formats
-* Use PR Pilot to add another example: `pilot edit run.sh "Add a Maven example"`
+* Use Arcane Engine to add another example: `pilot edit run.sh "Add a Maven example"`

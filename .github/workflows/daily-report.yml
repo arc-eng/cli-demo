@@ -37,8 +37,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --global user.name "PR Pilot"
-        git config --global user.email "bot@pr-pilot.ai"
+        git config --global user.name "Arcane Engine"
+        git config --global user.email "bot@arcane.engineer"
         git add .
         git commit -m "Daily Report $(date +'%Y-%m-%d')"
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/PR-Pilot-AI/demo.git main
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/arc-eng/cli-demo.git main

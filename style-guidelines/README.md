@@ -8,7 +8,7 @@ Maintaining a consistent style across your repositories and documents is essenti
 - Enforcing the guidelines is **manual and time-consuming**.
 
 ## 🎯 Goal
-This demo showcases how PR Pilot can help you **extract style guidelines** from existing documents and **apply them** to new ones.
+This demo showcases how Arcane Engine can help you **extract style guidelines** from existing documents and **apply them** to new ones.
 
 ## 🛠️ How it works
 
@@ -29,7 +29,7 @@ In [run.sh](run.sh), we use [extract-guidelines.md.jinja2](extract-guidelines.md
 
 * The [langchain README](https://raw.githubusercontent.com/langchain-ai/langchain/master/README.md)
 * The [Spring Boot README](https://raw.githubusercontent.com/spring-projects/spring-boot/main/README.adoc)
-* The [PR Pilot CLI README](https://raw.githubusercontent.com/PR-Pilot-AI/pr-pilot-cli/main/README.md)
+* The [Arcane CLI README](https://raw.githubusercontent.com/arc-eng/cli/main/README.md)
 
 The guidelines are saved as _local_ Markdown files in [styles](styles) for reference, where they can be applied to new documents using [apply-guidelines.md.jinja2](apply-guidelines.md.jinja2):
 
@@ -50,13 +50,13 @@ The guidelines are saved as _local_ Markdown files in [styles](styles) for refer
 
 ### Direct Style Transfer
 For a more direct approach, we use [transfer-style.md.jinja2](transfer-style.md.jinja2) to apply the style guidelines directly to the [README.md](README.md) in this demo directory.
-This time, we omit the `-o` and `--code` flags in order to receive the changes as a [pull request](https://github.com/PR-Pilot-AI/demo/pull/37):
+This time, we omit the `-o` and `--code` flags in order to receive the changes as a [pull request](https://github.com/arc-eng/cli-demo/pull/37):
 
 ```shell
 ➜  style-guidelines git:(main) ✗ ./run.sh 
 ✔ Extract style guidelines from document URL (0:00:09.06)
 ✔ Task created: b02e30b0-e6a2-4ad9-88cf-f987bb792076 (0:00:00.00)
-✔ Opened Pull Request: https://github.com/PR-Pilot-AI/demo/pull/37 (0:00:26.38)
+✔ Opened Pull Request: https://github.com/arc-eng/cli-demo/pull/37 (0:00:26.38)
 ╭──────────────────────────────────────────────────────────────────────────────────────────────── Result ─────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ I have applied the style guidelines to the README.md file. The document now includes emojis in headers and lists, uses in-line links, maintains a friendly and personal tone, and highlights key words  │
 │ and word groups in bold for better readability.                                                                                                                                                         │
@@ -72,4 +72,4 @@ You can customize this technique in creative ways:
 - **Create a style guide template**: Use a template to define your own style guidelines and apply them to new documents.
 - **Automate the process**: Use scripts to automatically extract and apply guidelines to documents in your repository.
 
-By using PR Pilot to extract and apply style guidelines, you can **ensure that your content is consistent, professional, and visually appealing** across all your repositories and documents.
+By using Arcane Engine to extract and apply style guidelines, you can **ensure that your content is consistent, professional, and visually appealing** across all your repositories and documents.

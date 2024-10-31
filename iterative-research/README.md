@@ -1,5 +1,5 @@
 # 📚 Iterative Research Demo
-This demo showcases how to use PR Pilot to **iteratively explore open-ended questions** by building a knowledge base of Markdown files.
+This demo showcases how to use Arcane Engine to **iteratively explore open-ended questions** by building a knowledge base of Markdown files.
 
 ## ⚙️ How it Works
 
@@ -8,7 +8,7 @@ This demo showcases how to use PR Pilot to **iteratively explore open-ended ques
 
 ## 🚀 How to Run This Demo
 
-Run `run.sh` as many times as you want to iterate on the research question. With every iteration, PR Pilot will:
+Run `run.sh` as many times as you want to iterate on the research question. With every iteration, Arcane Engine will:
 1. Pick an item from the backlog and resarch it
 2. Write a new Markdown file with the findings
 3. Update the index.md file and backlog accordingly

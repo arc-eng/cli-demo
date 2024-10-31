@@ -1,11 +1,11 @@
 # 💬 Conversation
 
-In some situations, a back-and-forth conversation may be the best **mode of interaction** between you and PR Pilot:
+In some situations, a back-and-forth conversation may be the best **mode of interaction** between you and Arcane Engine:
 - You're unsure about something and would like to **ask** a question
 - You want to create a task, but are **not sure** how to phrase it or where to begin
 - You want to **understand** a concept or feature in more detail
 
-PR Pilot is here to help you in these scenarios. 
+Arcane Engine is here to help you in these scenarios. 
 
 ## 🛠️ How it works
 
@@ -13,7 +13,7 @@ You can start a conversation by running the following command:
 
 ```shell
 ➜  conversation git:(main) ✗ pilot chat
-Starting a new conversation on PR-Pilot-AI/demo
+Starting a new conversation on arc-eng/cli-demo
 
 You: 
 ```
@@ -43,13 +43,13 @@ Feel free to continue the conversation:
 
 ```shell
 ➜  conversation git:(main) ./run.sh 
-Continuing conversation from chat.json on PR-Pilot-AI/demo
+Continuing conversation from chat.json on arc-eng/cli-demo
 
 You: What do you know about this project?
                                                                                                                                                                                                            
-  This project is a collection of demos and examples showcasing the features and capabilities of PR Pilot, an AI tool designed to assist users in their daily workflow. Each demo is organized into        
+  This project is a collection of demos and examples showcasing the features and capabilities of Arcane Engine, an AI tool designed to assist users in their daily workflow. Each demo is organized into        
   sub-directories (e.g., pr-description) and includes a README.md and run.sh file. The README.md provides guidance and explains the use case and benefits, while the run.sh file uses the CLI to           
-  implement the demo use case. The project emphasizes a friendly, personal tone with engaging elements like emojis and highlights key words for easy scanning. PR Pilot aims to save time and help users   
+  implement the demo use case. The project emphasizes a friendly, personal tone with engaging elements like emojis and highlights key words for easy scanning. Arcane Engine aims to save time and help users   
   stay in the flow by allowing them to delegate routine tasks to AI through prompts.                                                                                                                       
                                                                                                                                                                                                            
 You: Which demos do we have in here?
@@ -72,7 +72,7 @@ You: Which demos do we have in here?
    • 🗺️ step-by-step-plan                                                                                                                      
    • 🎨 style-guidelines                                                                                                                      
                                                                                                                                               
-  Each demo showcases different features and capabilities of PR Pilot, helping you understand how to leverage the tool in various scenarios.  
+  Each demo showcases different features and capabilities of Arcane Engine, helping you understand how to leverage the tool in various scenarios.  
                                                                                                                                               
 You: 
 Chat history saved to chat.json

@@ -1,10 +1,10 @@
 # 🧪 Analyze and Fix Failed Unit Tests
 
 Running automated tests and understanding the results is a crucial part of the software development process. 
-In this demo, we will show how PR Pilot can analyze the results of failed unit tests and suggest fixes to make the tests pass.
+In this demo, we will show how Arcane Engine can analyze the results of failed unit tests and suggest fixes to make the tests pass.
 
 ## How it works 
-Running [run.sh](./run.sh), PR Pilot will:
+Running [run.sh](./run.sh), Arcane Engine will:
 1. 📝 Render the template [analyze-test-results.md.jinja2](./analyze-test-results.md.jinja2)
 2. 🧪 Execute the shell command `python3 test_fibonacci.py` to run the test script and use the output as part of the prompt
 3. 🔍 Analyze the test results, read the relevant code and suggest fixes to make the tests pass

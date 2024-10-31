@@ -1,5 +1,5 @@
 # 🔍 Multi-Search
-PR Pilot can act as **your personal search agent**. In this demo, you'll learn how 
+Arcane Engine can act as **your personal search agent**. In this demo, you'll learn how 
 you can easily run a search **across services** like Github, Slack, and your codebase
 and get a beautifully formatted list of results.
 
@@ -16,7 +16,7 @@ I want to search for "{{ env('SEARCH_QUERY') }}" across multiple sources.
 4. 📋 Respond with a condensed list of links to the respective results.
 ```
 
-It's as easy as that! In the run script, **PR Pilot will ask you for a search query**, and then
+It's as easy as that! In the run script, **Arcane Engine will ask you for a search query**, and then
 it will search across the specified sources and provide you with a condensed list:
 
 ```shell
@@ -37,7 +37,7 @@ it will search across the specified sources and provide you with a condensed lis
 │  1 Daily Digest for PR-Pilot Projects on 2024-06-26                                                                        │
 │  2 Daily Digest for PR-Pilot Projects on 2024-06-25                                                                        │
 │  3 Daily Digest for PR-Pilot Projects on 2024-06-22                                                                        │
-│  4 Daily Digest for PR-Pilot-AI Projects on 2024-06-21                                                                     │
+│  4 Daily Digest for arc-eng Projects on 2024-06-21                                                                     │
 │  5 Daily Report for 2024-06-21                                                                                             │
 │  6 Daily Report for 2024-06-21                                                                                             │
 │  7 Daily Report for 2024-06-21                                                                                             │
@@ -56,4 +56,4 @@ Here are some ideas for how you can customize this demo for your own purposes:
 * **💾 Save it as a command**: Use the `--save-command` option to run this search via `pilot run search`
 * **➕ Add more sources**: Add more sources to search across, such as Linear or JIRA
 * **🖌️ Customize the output**: Change the formatting of the results to suit your needs
-* **🔍 Grab it for your repo**: Run `pilot grab commands pr-pilot-ai/demo` and select `multi-search` to add this command to your repository
+* **🔍 Grab it for your repo**: Run `pilot grab commands arc-eng/cli-demo` and select `multi-search` to add this command to your repository

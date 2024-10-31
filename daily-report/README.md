@@ -6,18 +6,18 @@ Every developer has their routine in the morning:
 - 📊 Check the status of ongoing development efforts
 - etc
 
-With PR Pilot, you can automate the process of collecting and summarizing this information, creating a daily report that you can read in the morning to catch up on what happened yesterday.
+With Arcane Engine, you can automate the process of collecting and summarizing this information, creating a daily report that you can read in the morning to catch up on what happened yesterday.
 
 ## Prerequisites
 - A Slack workspace to post the daily reports
-- Slack integration enabled in PR Pilot
+- Slack integration enabled in Arcane Engine
 
 ## 🛠️ How it works
 
 Running [run.sh](run.sh) will:
 
-1. **📥 Collect Information**: PR Pilot gathers data from Github and other tools to summarize the day's activities from a list of Github repos
-2. **📝 Generate Report**: Using a template, PR Pilot organizes the information into a structured report.
+1. **📥 Collect Information**: Arcane Engine gathers data from Github and other tools to summarize the day's activities from a list of Github repos
+2. **📝 Generate Report**: Using a template, Arcane Engine organizes the information into a structured report.
 3. **💾 Deliver Report**: The report is saved as a Markdown file in `daily-reports/<OWNER>/<REPO>/<DATE>.md`
 
 ### 🤖 Automation
@@ -29,22 +29,22 @@ Instead of running the script manually, you can run it as a [Github Action to ge
 Running the script might look something like this:
 
 ```bash
-Generating report for PR-Pilot-AI/demo
+Generating report for arc-eng/cli-demo
 ✔ Task created: 1c8d1b65-30a8-45b6-b737-38ac56306984 (0:00:00.00)
-✔ Result saved in PR-Pilot-AI/demo/2024-06-20.md (0:00:13.58)
-Generating report for PR-Pilot-AI/pr-pilot
+✔ Result saved in arc-eng/cli-demo/2024-06-20.md (0:00:13.58)
+Generating report for arc-eng/studio
 ✔ Task created: 13c51b00-5e06-4ab7-af60-e62158e7d4c7 (0:00:00.00)
-✔ Result saved in PR-Pilot-AI/pr-pilot/2024-06-20.md (0:00:19.90)
-Generating report for PR-Pilot-AI/pr-pilot-cli
+✔ Result saved in arc-eng/studio/2024-06-20.md (0:00:19.90)
+Generating report for arc-eng/cli
 ✔ Task created: 2601efa5-07b8-4de4-b972-8fc49f29a80c (0:00:00.00)
-✔ Result saved in PR-Pilot-AI/pr-pilot-cli/2024-06-20.md (0:00:22.01)
+✔ Result saved in arc-eng/cli/2024-06-20.md (0:00:22.01)
 ```
 
-We're generating reports daily in the [PR-Pilot-AI](PR-Pilot-AI) folder for you
+We're generating reports daily in the [arc-eng](arc-eng) folder for you
 so you can see what it looks like for some of our repositories:
-- [PR Pilot Agent](PR-Pilot-AI/pr-pilot-cli)
-- [PR Pilot Demos Repository](PR-Pilot-AI/demo)
-- [PR Pilot Command-Line Interface](PR-Pilot-AI/pr-pilot)
+- [Arcane Engine Agent](arc-eng/cli)
+- [Arcane Engine Demos Repository](arc-eng/cli-demo)
+- [Arcane Engine Command-Line Interface](arc-eng/studio)
 
 ### Icing on the Cake: Daily Slack Digest
 You can take this approach to the next level by combining all the daily reports into a single daily digest and posting it to a specific channel. 

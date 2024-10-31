@@ -1,7 +1,7 @@
-name: Create a new PR Pilot Integration
+name: Create a new Arcane Engine Integration
 prompt: |
-  We are adding a Sentry integration to PR Pilot. Users will be able to enter their API key in the dashboard
-  and PR Pilot will use its agent tools to search the Sentry API for issues and events.
+  We are adding a Sentry integration to Arcane Engine. Users will be able to enter their API key in the dashboard
+  and Arcane Engine will use its agent tools to search the Sentry API for issues and events.
   
   An integration is composed of the following:
   - A dashboard page with:

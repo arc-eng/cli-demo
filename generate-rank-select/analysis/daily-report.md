@@ -3,8 +3,8 @@
 #### Developer Pain Point
 The demo addresses the common developer pain point of manually gathering and summarizing daily updates from multiple Github repositories. This includes checking for new issues, unresolved bug tickets, and the status of ongoing development efforts. This routine can be time-consuming and prone to oversight.
 
-#### How PR Pilot CLI Helps
-The PR Pilot CLI automates the process of collecting and summarizing information from Github repositories. Here's how it works step-by-step:
+#### How Arcane CLI Helps
+The Arcane CLI automates the process of collecting and summarizing information from Github repositories. Here's how it works step-by-step:
 
 1. **Collect Information**: The CLI gathers data from specified Github repositories.
 2. **Generate Report**: Using a Jinja template, the CLI organizes the collected data into a structured report.
@@ -23,7 +23,7 @@ The PR Pilot CLI automates the process of collecting and summarizing information
 #!/usr/bin/env bash
 set -e
 
-projects=("PR-Pilot-AI/demo" "PR-Pilot-AI/pr-pilot" "PR-Pilot-AI/pr-pilot-cli")
+projects=("arc-eng/cli-demo" "arc-eng/studio" "arc-eng/cli")
 today=$(date +'%Y-%m-%d')
 
 for project in "${projects[@]}"; do
@@ -33,7 +33,7 @@ for project in "${projects[@]}"; do
 done
 ```
 - **Command Explanation**:
-  - `pilot --no-sync --verbose --repo "$project" task -o "$project/$today.md" -f generate-report.md.jinja2`: This command uses the PR Pilot CLI to generate a report for each specified project. The report is saved in a Markdown file named with the current date.
+  - `pilot --no-sync --verbose --repo "$project" task -o "$project/$today.md" -f generate-report.md.jinja2`: This command uses the Arcane CLI to generate a report for each specified project. The report is saved in a Markdown file named with the current date.
 
 **Jinja Template in `generate-report.md.jinja2`**:
 ```jinja
@@ -70,4 +70,4 @@ Use the following template to organize the content by topic and priority:
   - It includes sections for a summary, highlights, and detailed topics with in-line links to relevant issues and pull requests.
 
 ### Conclusion
-The `daily-report` demo showcases how PR Pilot can automate the creation of daily reports, saving developers time and ensuring consistency. By using the CLI and customizable Jinja templates, users can tailor the reports to their specific needs and integrate the process into their daily workflow. This enhances productivity and keeps the team informed with minimal effort.
+The `daily-report` demo showcases how Arcane Engine can automate the creation of daily reports, saving developers time and ensuring consistency. By using the CLI and customizable Jinja templates, users can tailor the reports to their specific needs and integrate the process into their daily workflow. This enhances productivity and keeps the team informed with minimal effort.

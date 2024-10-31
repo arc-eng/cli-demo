@@ -1,7 +1,7 @@
 # 🎮 Game of Life
 In [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), a grid of cells evolves over time based on a set of rules. The rules are simple, but the patterns that emerge can be complex and interesting.
 
-This example demonstrates how to create a simple implementation of Conway's Game of Life using PR Pilot:
+This example demonstrates how to create a simple implementation of Conway's Game of Life using Arcane Engine:
 
 ```shell
 # Implement game of life in new PR
@@ -22,14 +22,14 @@ poetry run python gol.py
 Running [run.sh](./run.sh) will:
 1. Create a new PR with a Python script that plays a random game of life.
 2. Create a `pyproject.toml` file with the latest versions of the dependencies.
-3. Verify the installation by letting PR Pilot run `poetry lock` and `poetry install` until it works.
+3. Verify the installation by letting Arcane Engine run `poetry lock` and `poetry install` until it works.
 4. Run the script to see the animation of the game of life.
 
-## How PR Pilot makes this easy
+## How Arcane Engine makes this easy
 
 - A new PR is automatically created for you to review the code changes
 - Using the `--sync` flag, your local repo will automatically sync with the PR branch
-- PR Pilot will handle the installation of dependencies and fix any errors that occur
+- Arcane Engine will handle the installation of dependencies and fix any errors that occur
 
 ## Example output
 
@@ -38,8 +38,8 @@ Running the example script `./run.sh` in the `game-of-life` directory should pro
 ```bash
 ➜  game-of-life git:(main) ./run.sh 
 ✔ Task created: 0677bc6f-ca8b-44e5-bfb8-c26c4678084f (0:00:00.00)
-✔ Opened Pull Request: https://github.com/PR-Pilot-AI/demo/pull/14 (0:00:19.99)
-✔ Opened Pull Request: https://github.com/PR-Pilot-AI/demo/pull/14 (0:00:00.00)
+✔ Opened Pull Request: https://github.com/arc-eng/cli-demo/pull/14 (0:00:19.99)
+✔ Opened Pull Request: https://github.com/arc-eng/cli-demo/pull/14 (0:00:00.00)
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────── Result ─────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ I have created the game-of-life/gol.py file, which plays a random Game of Life every time it is run. The implementation includes generating a random grid and updating it according to Conway's Game of Life rules. You can run │
 │ the script to see the animation of the Game of Life.                                                                                                                                                                            │

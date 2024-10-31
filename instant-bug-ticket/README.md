@@ -6,7 +6,7 @@ You want to quickly create a bug ticket with all the necessary information to he
 2. 📂 Reading the relevant files to understand the problem better.
 3. 🐞 Opening a new issue labeled 'bug' with a concise description of the problem.
 
-This is tedious, time-consuming work that you can now do in seconds with PR Pilot,
+This is tedious, time-consuming work that you can now do in seconds with Arcane Engine,
 without ever leaving your terminal.
 
 ## ⚙️ How it Works
@@ -24,7 +24,7 @@ Here are recent server logs:
 3. Open a new Github issue labeled 'bug' and a concise description of the problem
 ```
 
-Run the command, and PR Pilot will automatically create a new issue in your Github repository with the server logs and a concise description of the problem.
+Run the command, and Arcane Engine will automatically create a new issue in your Github repository with the server logs and a concise description of the problem.
 
 ```shell
 ➜  pr-pilot git:(main) ✗ pilot task -f prompts/bug-ticket.md.jinja2
@@ -44,7 +44,7 @@ Run the command, and PR Pilot will automatically create a new issue in your Gith
 ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-The result: https://github.com/PR-Pilot-AI/pr-pilot/issues/198
+The result: https://github.com/arc-eng/studio/issues/198
 
 # 🎨 Make it Your Own
 Here are some ideas for how you can customize this demo for your own purposes:

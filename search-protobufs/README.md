@@ -1,6 +1,6 @@
 # 🌟 Search Protobufs Demo
 
-This demo showcases how PR Pilot can be used for **semantic search** over files in a repository, specifically focusing on protobuf files.
+This demo showcases how Arcane Engine can be used for **semantic search** over files in a repository, specifically focusing on protobuf files.
 
 ## 🚀 Getting Started
 

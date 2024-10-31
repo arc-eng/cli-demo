@@ -1,14 +1,14 @@
 # 🐛 Error Analysis with Sentry
 Sentry is a popular error tracking tool that helps developers monitor and fix crashes in real-time. 
-By integrating PR Pilot with Sentry, error analysis becomes a breeze.
+By integrating Arcane Engine with Sentry, error analysis becomes a breeze.
 
 ## Prerequisites
 - A [Sentry](https://sentry.io) account
 - A project set up on Sentry
-- Sentry integration enabled in PR Pilot
+- Sentry integration enabled in Arcane Engine
 
 ## 🛠️ How it works
-A convenient way to do this is to **start a chat** with PR Pilot:
+A convenient way to do this is to **start a chat** with Arcane Engine:
 
 ```shell
 ➜  error-analysis git:(main) ✗ ./run.sh
@@ -74,7 +74,7 @@ We found some issues, **let's pick one and investigate** further:
 
 ```
 
-Seems like there's something wrong with how we scrape websites. PR pilot can **find and fix the relevant code**:
+Seems like there's something wrong with how we scrape websites. Arcane Engine can **find and fix the relevant code**:
 
 ```shell
                                                                                                            

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-projects=("PR-Pilot-AI/demo" "PR-Pilot-AI/pr-pilot" "PR-Pilot-AI/pr-pilot-cli")
+projects=("arc-eng/cli-demo" "arc-eng/studio" "arc-eng/cli")
 today=$(date +'%Y-%m-%d')
 
 for project in "${projects[@]}"; do

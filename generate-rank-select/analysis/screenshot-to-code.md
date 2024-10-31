@@ -3,8 +3,8 @@
 #### Developer Pain Point
 The demo addresses the challenge of converting design mockups into code, a task that is often time-consuming and error-prone, especially for complex designs. This is a common pain point for frontend developers who need to translate visual designs into functional components.
 
-#### How PR Pilot CLI Helps
-The PR Pilot CLI simplifies this process by automating the conversion of a screenshot into a React component. The CLI command used in the demo captures a portion of the screen and generates the corresponding code based on a Jinja2 template.
+#### How Arcane CLI Helps
+The Arcane CLI simplifies this process by automating the conversion of a screenshot into a React component. The CLI command used in the demo captures a portion of the screen and generates the corresponding code based on a Jinja2 template.
 
 #### Main Benefits for the User
 1. **Time-Saving**: Automates the conversion process, significantly reducing the time required to go from design to code.
@@ -92,4 +92,4 @@ The PR Pilot CLI simplifies this process by automating the conversion of a scree
    ```
 
 ### Conclusion
-The `screenshot-to-code` demo showcases how PR Pilot can streamline the process of converting design mockups into code, providing significant benefits in terms of time savings, accuracy, and customization. By leveraging the CLI and Jinja2 templates, developers can quickly generate code that closely matches their design requirements.
+The `screenshot-to-code` demo showcases how Arcane Engine can streamline the process of converting design mockups into code, providing significant benefits in terms of time savings, accuracy, and customization. By leveraging the CLI and Jinja2 templates, developers can quickly generate code that closely matches their design requirements.

@@ -12,7 +12,7 @@ extract_spring_boot() {
 }
 
 extract_pr_pilot_cli() {
-  export URL=https://github.com/PR-Pilot-AI/pr-pilot-cli/blob/main/README.md
+  export URL=https://github.com/arc-eng/cli/blob/main/README.md
   pilot run extract-style -o styles/pr-pilot.md
 }
 
@@ -21,16 +21,16 @@ apply_style_guidelines() {
   export GUIDELINE_FILE=styles/pr-pilot.md
   # Select the file to apply the style guidelines to
   export DOCUMENT_FILE=README.md
-  # Apply the PR Pilot style guidelines to the README.md file in this demo
+  # Apply the Arcane Engine style guidelines to the README.md file in this demo
   pilot run apply-style -o $DOCUMENT_FILE
 }
 
 transfer_style_guidelines() {
   # Select the source for the style guidelines
-  export URL=https://github.com/PR-Pilot-AI/pr-pilot-cli/blob/main/README.md
+  export URL=https://github.com/arc-eng/cli/blob/main/README.md
   # Select the file to apply the style guidelines to
   export DOCUMENT_FILE=README.md
-  # Apply the PR Pilot style guidelines to the README.md file repo
+  # Apply the Arcane Engine style guidelines to the README.md file repo
   pilot --verbose task -f transfer-style.md.jinja2
 }
 

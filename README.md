@@ -1,39 +1,39 @@
 <div align="center">
-<img src="https://avatars.githubusercontent.com/ml/17635?s=140&v=" width="100" alt="PR Pilot Logo">
+<img src="https://avatars.githubusercontent.com/ml/17635?s=140&v=" width="100" alt="Arcane Engine Logo">
 </div>
 
 <p align="center">
-  <a href="https://github.com/apps/pr-pilot-ai/installations/new"><b>Install</b></a> |
-  <a href="https://docs.pr-pilot.ai">Documentation</a> | 
-  <a href="https://www.pr-pilot.ai/blog">Blog</a> | 
-  <a href="https://www.pr-pilot.ai">Website</a>
+  <a href="https://github.com/apps/arcane-engine/installations/new"><b>Install</b></a> |
+  <a href="https://docs.arcane.engineer">Documentation</a> | 
+  <a href="https://www.arcane.engineer/blog">Blog</a> | 
+  <a href="https://www.arcane.engineer">Website</a>
 </p>
 
-# PR Pilot Demos
+# Arcane CLI Demos
 
-This repository contains demos and examples for showcasing the capabilities of [PR Pilot](https://docs.pr-pilot.ai/user_guide.html) to help you:
+This repository contains demos and examples for showcasing the capabilities of [Arcane Engine](https://docs.arcane.engineer/user_guide.html) to help you:
 * **Save time** by automating routine tasks
-* **Stay in the flow** by delegating work to PR Pilot from [anywhere](https://docs.pr-pilot.ai/user_guide.html#python-sdk)
-* **Avoid context switching** by [integrating](https://docs.pr-pilot.ai/integrations.html) with your existing tools and services
+* **Stay in the flow** by delegating work to Arcane Engine from [anywhere](https://docs.arcane.engineer/user_guide.html#python-sdk)
+* **Avoid context switching** by [integrating](https://docs.arcane.engineer/integrations.html) with your existing tools and services
 
 ## How to Run
 
 To run the demos:
-1. Make sure you have the **[CLI installed](https://github.com/PR-Pilot-AI/pr-pilot-cli)**
-2. **[Fork this repository](https://github.com/PR-Pilot-AI/demo/fork)**
-3. **[Invite PR Pilot](https://github.com/apps/pr-pilot-ai/installations/new)** to your forked repository
+1. Make sure you have the **[CLI installed](https://github.com/arc-eng/cli)**
+2. **[Fork this repository](https://github.com/arc-eng/cli-demo/fork)**
+3. **[Invite Arcane Engine](https://github.com/apps/arcane-engine/installations/new)** to your forked repository
 
 Then, you can run the demos by following the instructions in each demo's directory.
 
 ## Demos
 
-The following demos showcase how PR Pilot **solves common tasks developers have to do on a daily basis**:
+The following demos showcase how Arcane Engine **solves common tasks developers have to do on a daily basis**:
 
 | Demo                                                    | Description                                                                              |
 |---------------------------------------------------------|------------------------------------------------------------------------------------------|
 | ⭐️ **[PR Descriptions](pr-description)**                | Create consistent, high-quality PR descriptions in seconds                               |
 | 🐞 **[Instant Bug Ticket](instant-bug-ticket)**         | Create bug tickets when and where they happen - instantly                                |
-| 💬 **[Conversations](conversation)**                    | Chat with PR Pilot, save conversations and share them with your team                     |
+| 💬 **[Conversations](conversation)**                    | Chat with Arcane Engine, save conversations and share them with your team                     |
 | 🐛 **[Sentry Error Analysis](error-analysis)**          | Quickly analyze and fix Sentry issues from the command line                              |
 | 📝 **[Daily Reports](daily-report)**                    | Generate daily digests for Github, Linear, Slack and more!                               |
 | 📊 **[Multi-Search](multi-search)**                     | Run a search across services like Github, Slack, and your codebase.                      |
@@ -43,7 +43,7 @@ The following demos showcase how PR Pilot **solves common tasks developers have 
 | 🛠 **[Config File Madness](config-file-madness)**       | You'll never _ever_ write a single build file by hand ever again.                        |
 | 📦 **[Generate-Rank-Select](generate-rank-select)**     | Generate new ideas, evaluate and rank them and find the best one for your needs.         |
 | 📚 **[Generate Dummy Content](generate-dummy-content)** | Quick and flexible dummy content generation for testing purposes.                        |
-| 🎮 **[Game of Life with PR Pilot](game-of-life)**       | Implement Conway's Game of Life with PR Pilot.                                           |
+| 🎮 **[Game of Life with Arcane Engine](game-of-life)**       | Implement Conway's Game of Life with Arcane Engine.                                           |
 | 🌟 **[Search Protobufs](search-protobufs)**             | Perform semantic search over files in a repository, focusing on protobuf files.          |
 | 📚 **[Iterative Research](iterative-research)**         | Iteratively explore open-ended questions by building a knowledge base of Markdown files.  |
 
@@ -51,11 +51,11 @@ Each directory contains a README with instructions on how to run the demo.
 
 ## Grab a Command
 
-Some of the demo prompts are saved as [commands](https://docs.pr-pilot.ai/user_guide.html#sharing-and-importing-commands). You can 
+Some of the demo prompts are saved as [commands](https://docs.arcane.engineer/user_guide.html#sharing-and-importing-commands). You can 
 **easily transfer them into other repos** with a single command:
 
 ```shell
-pilot grab commands pr-pilot-ai/demo
+pilot grab commands arc-eng/cli-demo
 ```
 
 Then, you can customize and run them with `pilot run <command>`:
